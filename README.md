@@ -1,5 +1,5 @@
 # SDL-Audio-Player
-A basic, single-header implementation of an [SDL Mixer 1.2](https://www.libsdl.org/projects/mixer) WAV file audio player in [SDL2](https://www.libsdl.org/). The player can play both sound effect files and music tracks.
+A basic, single-header implementation of an [SDL Mixer 1.2](https://www.libsdl.org/projects/mixer) WAV file audio player in [SDL2](https://www.libsdl.org/). The player can play both sound effect files and music tracks. It can also change sound effect and music volume separately, and allows you to pause and stop audio playback.
 
 **As far as I'm aware, SDL Mixer is only compatible with sound files saved in the 16-bit WAV format.** If your file is not saved in that format, it may not play correctly.
 
