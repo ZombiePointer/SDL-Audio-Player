@@ -8,7 +8,7 @@ A basic, single-header C++ implementation of an [SDL Mixer 1.2](https://www.libs
 ## How do I use this?
 First ensure you have a correctly configured installation of SDL2 and SDL Mixer. The `SDL_Mixer.h` file should be in the include directory of your SDL installation folder. You should also ensure you have properly set up `SDL2_mixer.lib` and included the `SDL2_mixer.dll` file in your project directory.
 1. Include the header file **AudioPlayer.h**.
-2. Edit the sound effect and music track storage objects (`SoundEffectFiles` and `MusicFiles`) to contain the file names of your sound files, as well as the number of total sound effects and tracks.
+2. Edit the sound effect and music track storage objects (`SoundEffectFiles` and `MusicFiles`) to contain the filepaths of your sound and music files, as well as the number of total sound effects and tracks.
 3. On construction, the files will all be loaded as sound objects and ready for playing.
 
 ## Documentation
