@@ -16,7 +16,7 @@ private:
 
     // File locations of the sound effects you want to load.
     const char* SoundEffectFiles[1] = {
-      "Sounds/Sound.wav",
+      "Sound.wav",
     };
     int numberOfSounds = 1;
 
@@ -24,7 +24,7 @@ private:
 
     // File locations of the music tracks you want to load.
     const char* MusicFiles[1] = {
-        "Music/Placeholder.wav",
+        "Music.wav",
     };
     int numberOfTracks = 1;
 
